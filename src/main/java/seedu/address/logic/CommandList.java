@@ -4,7 +4,6 @@ import seedu.address.logic.commands.AddCommand;
 import seedu.address.logic.commands.CheckoutCommand;
 import seedu.address.logic.commands.ClearCommand;
 
-import seedu.address.logic.commands.DeleteCommand;
 import seedu.address.logic.commands.EditCommand;
 import seedu.address.logic.commands.ExitCommand;
 
@@ -24,7 +23,7 @@ import java.util.List;
  */
 public class CommandList {
     public static final List<String> COMMAND_LIST = Arrays.asList(AddCommand.COMMAND_WORD,
-            CheckoutCommand.COMMAND_WORD, ClearCommand.COMMAND_WORD, DeleteCommand.COMMAND_WORD,
+            CheckoutCommand.COMMAND_WORD, ClearCommand.COMMAND_WORD, 
             EditCommand.COMMAND_WORD, ExitCommand.COMMAND_WORD, FindCommand.COMMAND_WORD,
             HelpCommand.COMMAND_WORD, HistoryCommand.COMMAND_WORD, ListCommand.COMMAND_WORD,
             SelectCommand.COMMAND_WORD, UndoCommand.COMMAND_WORD);
